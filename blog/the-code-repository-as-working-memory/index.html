@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Code Repository as Working Memory</title>
+  <meta name="description" content="Explore how treating the code repository as durable working memory preserves decisions and evidence, enabling people and AI agents to build more ambitious software together with continuity and confidence.">
+  <link rel="canonical" href="https://walkden.me/blog/the-code-repository-as-working-memory/">
+  <link rel="alternate" type="application/rss+xml" title="Kal Walkden / Writing" href="https://walkden.me/feed.xml">
+  <link rel="icon" href="/assets/favicon-kw.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  
+  
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2026-10-17T05:00:00.000Z">
+  
+  <meta property="og:title" content="The Code Repository as Working Memory">
+  <meta property="og:description" content="Explore how treating the code repository as durable working memory preserves decisions and evidence, enabling people and AI agents to build more ambitious software together with continuity and confidence.">
+  <meta property="og:url" content="https://walkden.me/blog/the-code-repository-as-working-memory/">
+  <meta property="og:image" content="https://walkden.me/assets/social-kw.png">
+  <meta property="og:image:alt" content="Kal Walkden — Technology &amp; Product Executive.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The Code Repository as Working Memory">
+  <meta name="twitter:description" content="Explore how treating the code repository as durable working memory preserves decisions and evidence, enabling people and AI agents to build more ambitious software together with continuity and confidence.">
+  <meta name="twitter:image" content="https://walkden.me/assets/social-kw.png">
+  <meta name="twitter:image:alt" content="Kal Walkden — Technology &amp; Product Executive.">
+  <script defer src="/assets/analytics.js" data-measurement-id="G-NY89RFFJFC" data-production-origin="https://walkden.me"></script>
+  
+</head>
+<body>
+  <div class="shell">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+  <a class="brand" href="/#home">Kal Walkden<span class="brand-dot" aria-hidden="true">.</span></a>
+  <nav aria-label="Main navigation">
+    
+      <a href="/#home">Home</a>
+    
+      <a href="/#how-i-help">How I Help</a>
+    
+      <a href="/#selected-work">Selected Work</a>
+    
+      <a href="/#about">About</a>
+    
+      <a href="/blog/">Writing</a>
+    
+      <a href="/#contact">Contact</a>
+    
+  </nav>
+</header>
+
+    <main id="main" tabindex="-1">
+      
+      <div class="article-layout">
+  <article class="reading">
+    <h1>The Code Repository as Working Memory</h1>
+    <p class="article-date"><time datetime="2026-10-17">October 17, 2026</time></p>
+    <p class="article-lead">Explore how treating the code repository as durable working memory preserves decisions and evidence, enabling people and AI agents to build more ambitious software together with continuity and confidence.</p>
+    <p><img src="/assets/blog/3844bf5667b3688f85b78e6b1cc20d43191191ff72243cf1c3996a08f17bf1a1.png" alt="Abstract image with a continuous thread connecting conversations, preserved decisions, and the next person’s work."></p>
+<p>I work on several projects at once. When I return to one after working on another, I have to reconstruct where I was. I have to rehydrate which options I ruled out, what I decided not to change, and why the next step was next. That takes time. Worse, when I know a task will start with a long round of archaeology, it has a way of sliding to the bottom of my list. I'm human.</p>
+<p>Engineering teams have long used architecture decision records, wikis, and project notes to preserve context. Those help, but even with them I still have to remember what to look for, find it, and work out whether it matches what exists today. I wanted decisions captured as part of the work and carried into the next step so that a future agent, a client, or I could pick up the thread without starting over. That's the problem I built the <a href="https://github.com/kalwalkden/evidence-based-ai-engineering">Evidence-Based AI Engineering Toolkit</a> to address.</p>
+<p>AI-assisted engineering makes the gap easier to see. An agent can inspect a codebase, weigh alternatives, resolve an ambiguity, and implement a change. The code survives, but the reasoning is frozen in a conversation or transcript. The next person may have to reconstruct why the architecture was chosen or why something was deliberately left alone.</p>
+<p>The toolkit treats the repository as working memory for the delivery process, as well as a home for the code it produces.</p>
+<h2>Conversation is a poor system of record</h2>
+<p>Conversation is natural way to work while making changes. It is quick, flexible, and good for exploring ideas. It is a less reliable handoff between stages of software development. Even when a transcript is available, the decisions that matter can be buried among tentative ideas and agent chatter.</p>
+<p>In the toolkit, the results become explicit artifacts:</p>
+<ul>
+<li>A feature plan records scope, tradeoffs, and product and architecture decisions.</li>
+<li>A task brief and specification define a coherent outcome, its boundaries, and the relevant parts of the repository.</li>
+<li>Validation evidence and review findings record what was checked and what the reviewer found.</li>
+</ul>
+<p>These files give the next person or agent a place to start. They preserve the decisions and evidence needed for the next stage of work.</p>
+<h2>Artifacts are inter-agent APIs</h2>
+<p>I think of each artifact as a contract between stages. A feature plan answers what should change, what should be outside the scope, and which decisions need a person to make them. The task specification then checks those decisions against the current codebase: which files own the behavior, which conventions apply, and which tests describe core functions.</p>
+<p>Implementation can start from that work instead of repeating every product and architecture discussion. It still needs to verify that the plan fits the code it finds. The reviewer can then compare the implementation with the brief, specification, and validation evidence rather than relying on the implementer's summary.</p>
+<p>This makes it easier to change agent harnesses, models, or people without losing the thread. The next worker has a record to inspect and a clear place to challenge an assumption.</p>
+<h2>Evidence has an order</h2>
+<p>Durable memory is only valuable when it distinguishes decisions from guesses.</p>
+<p>Approved product, scope, and architecture decisions define what the work is meant to accomplish. Repository configuration and tests define constraints. Source code, call sites, git history, and observed conventions provide evidence about how the system currently behaves. External guidance can help, but it does not establish what a particular code base does.</p>
+<p>The ordering matters too. A familiar architecture pattern can suggest where to investigate; it cannot prove that a codebase follows the pattern. An old task plan can name likely code landmarks; the next worker must verify them. Passing automated tests does not, by itself, prove that a change meets the approved scope or works in a live workflow.</p>
+<p>The repository should store enough evidence for someone else to judge whether an implementation holds.</p>
+<h2>Working memory needs a lifecycle</h2>
+<p>If every past plan is mixed with active work, a future agent cannot tell which artifacts describe current state and which describe the past state.</p>
+<p>The toolkit separates active artifacts from archived ones. Work remains active while decisions, implementation, validation, or review are incomplete. It moves into an archive after the corresponding completion conditions have been met. Archived plans remain a record of the decisions made at the time; they do not need to be edited every time the code changes.</p>
+<p>That preserves two useful distinctions:</p>
+<ul>
+<li>Current code and tests are the authority for current behavior.</li>
+<li>Historical artifacts explain the decisions and evidence that produced that behavior.</li>
+</ul>
+<p>The archive does not override the current state, but it can make that state easier to understand.</p>
+<h2>The cost of this is ...</h2>
+<p>This approach adds files, model calls, and elapsed time. On a typo fix, that overhead would be too much. On a security change, a feature that crosses several parts of a system, or work likely to be revisited six months later the cost calculation changes.</p>
+<p>Pre-agentic development, teams already paid for missing context through repeated discovery, confused reviews, scope drift, rework, and decisions made again. Durable working memory moves part of that cost forward, but it also makes it visible - less costly over the long term.</p>
+<p>It makes AI-assisted implementations easier to defend. When someone asks why the code is shaped this way the answer does not have to be &quot;the model decided.&quot; The repository shows the approved decision, the evidence available at the time, the boundaries of the task, and the checks used.</p>
+<p>With the toolkit, when I return to a project, I see why we chose the path, what was left alone, and whether the rational holds. If the repository can answer those questions, I spend less time reconstructing the last decision and more time making the next one.</p>
+<p>Originally published at <a href="https://legup.studio/blog/ebaet-the-repository-as-durable-working-memory/">LegUp Studio</a>.</p>
+
+    <p class="back-link"><a class="text-link" href="/blog/">Back to Writing</a></p>
+  </article>
+</div>
+
+    </main>
+    <footer class="site-footer">
+  <span>&copy; 2026 Kal Walkden</span>
+  <span>Technology &amp; Product Executive</span>
+</footer>
+
+  </div>
+</body>
+</html>

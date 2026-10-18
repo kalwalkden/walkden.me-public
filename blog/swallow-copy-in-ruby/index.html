@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shallow Copy in Ruby</title>
+  <meta name="description" content="I often wonder why some organizations only consider candidates who have computer science or computer engineering degrees. In the real world I have seen many great developers who have come from diverse backgrounds.">
+  <link rel="canonical" href="https://walkden.me/blog/swallow-copy-in-ruby/">
+  <link rel="alternate" type="application/rss+xml" title="Kal Walkden / Writing" href="https://walkden.me/feed.xml">
+  <link rel="icon" href="/assets/favicon-kw.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  
+  
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2012-08-03T17:15:00.002Z">
+  
+  <meta property="og:title" content="Shallow Copy in Ruby">
+  <meta property="og:description" content="I often wonder why some organizations only consider candidates who have computer science or computer engineering degrees. In the real world I have seen many great developers who have come from diverse backgrounds.">
+  <meta property="og:url" content="https://walkden.me/blog/swallow-copy-in-ruby/">
+  <meta property="og:image" content="https://walkden.me/assets/social-kw.png">
+  <meta property="og:image:alt" content="Kal Walkden — Technology &amp; Product Executive.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Shallow Copy in Ruby">
+  <meta name="twitter:description" content="I often wonder why some organizations only consider candidates who have computer science or computer engineering degrees. In the real world I have seen many great developers who have come from diverse backgrounds.">
+  <meta name="twitter:image" content="https://walkden.me/assets/social-kw.png">
+  <meta name="twitter:image:alt" content="Kal Walkden — Technology &amp; Product Executive.">
+  <script defer src="/assets/analytics.js" data-measurement-id="G-NY89RFFJFC" data-production-origin="https://walkden.me"></script>
+  
+</head>
+<body>
+  <div class="shell">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+  <a class="brand" href="/#home">Kal Walkden<span class="brand-dot" aria-hidden="true">.</span></a>
+  <nav aria-label="Main navigation">
+    
+      <a href="/#home">Home</a>
+    
+      <a href="/#how-i-help">How I Help</a>
+    
+      <a href="/#selected-work">Selected Work</a>
+    
+      <a href="/#about">About</a>
+    
+      <a href="/blog/">Writing</a>
+    
+      <a href="/#contact">Contact</a>
+    
+  </nav>
+</header>
+
+    <main id="main" tabindex="-1">
+      
+      <div class="article-layout">
+  <article class="reading">
+    <h1>Shallow Copy in Ruby</h1>
+    <p class="article-date"><time datetime="2012-08-03">August 3, 2012</time></p>
+    <p class="article-lead">I often wonder why some organizations only consider candidates who have computer science or computer engineering degrees. In the real world I have seen many great developers who have come from diverse backgrounds.</p>
+    <p>I often wonder why some organizations only consider candidates who have computer science or computer engineering degrees. In the real world I have seen many great developers who have come from diverse backgrounds. However, I had an event recently that made me really happy I have a degree in computer engineering. It made me understand why the favoritism exists for computer science credentialed developers. I had an issue with an email template in Ruby on Rails that without a good mental model of compilers and, specifically, compiler optimization would likely have taken a long time to identify and fix. Here is what happened:</p>
+<pre tabindex="0" role="region" aria-label="Code sample"><code>
+
+in a database somewhere...
+
+UPDATE app_configs SET affiliate_template = 'Welcome to UrbanBound #[FirstName], &lt;more text=&quot;text&quot; welcome=&quot;welcome&quot;&gt;&lt;/more&gt;'
+
+
+
+def send_email_to_todays_movers 
+
+
+
+  Mover.each do |m| 
+
+    @boiler_plate_email = AppConfig.find_by_config_name('affiliate_template').value 
+
+    [business logic goes here]  
+
+    prep_mover m, @boiler_plate_email
+
+  end  
+
+end
+
+
+
+def prep_mover
+
+   [business logic goes here]
+
+   @movers_name = Mover.find_by_id(m.id) 
+
+   send_welcome_email @movers_name, @boiler_plate_email 
+
+end 
+
+
+
+def send_welcome_email (first_name, boiler_plate)
+
+   boiler_plate['#[FirstName]'] = first_name
+
+   ...&lt;send account=&quot;account&quot; email=&quot;email&quot; etc=&quot;etc&quot; update=&quot;update&quot;&gt;...&lt;/send&gt;
+
+end
+</code></pre>
+<p><em>*If this is good code architecture or not I'll leave for another post. We do most initial development of features as an <a href="http://en.wikipedia.org/wiki/Minimum_viable_product">MVP</a> at UrbanBound. Its usually not worth optimizing code the first time we are testing a feature out. That being said I have a strict rule of using TDD and keeping 95% code coverage on models, helpers and controllers. Generally speaking, no business logic is allowed in the views.</em></p>
+<p>The first time I ran this code (via rspec - <a href="http://memecreator.net/the-most-interesting-man-in-the-world/generated.php?imgid=383">I'm not this guy</a>) the outgoing email message had the correct first name for the first mover. However, the others all had the same first name as mover #1. It didn't make sense to me at all. The boilerplate email template was changed in the send_welcome_email method but we refreshed it each time a mover was processed. Then I thought about my days doing C/C++ and how compilers work. Maybe the Ruby interpreter couldn't see three levels deep into the execution tree to see the boilerplate was updated. Perhaps it just did a <em><strong>shallow copy</strong></em> of the boilerplate after the first execution and was effectively sending a memory location of the boilerplate. Never updating it after the initial read from the database. After some experimentation I found that I was indeed correct. The compiler was performing an optimization that made the code faster, but didn't produce the intended action the programmer gave it. This is the trade off compiler builders always make.  Back in graduate school I could get my compiler to generate code that ran 2x-3x faster than the benchmark compilers, however after running millions of test data sets against it I noticed errors in 1 or 2 of them. This may be fine if I was playing in media, such as an mp3, but not good for computations that affected people's life and safety.</p>
+<p>It turns out the solution is simple. Explicitly tell Ruby that you want a copy. Here is the code:</p>
+<pre tabindex="0" role="region" aria-label="Code sample"><code>
+  Mover.each do |m| 
+
+
+    @boiler_plate_email = AppConfig.find_by_config_name('affiliate_template').value.dup 
+
+
+
+    [business logic goes here]
+
+
+    prep_mover m, @boiler_plate_email
+
+  end
+</code></pre>
+<p>I found another great description of the problem <a href="http://vandenabeele.com/shallow-copy-in-Ruby">[here]</a></p>
+
+    <p class="back-link"><a class="text-link" href="/blog/">Back to Writing</a></p>
+  </article>
+</div>
+
+    </main>
+    <footer class="site-footer">
+  <span>&copy; 2026 Kal Walkden</span>
+  <span>Technology &amp; Product Executive</span>
+</footer>
+
+  </div>
+</body>
+</html>

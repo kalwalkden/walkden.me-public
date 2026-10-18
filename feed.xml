@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Kal Walkden / Writing</title>
+<link>https://walkden.me/blog/</link>
+<description>Notes on technology, product, teams, and the decisions that connect them.</description>
+
+<item>
+<title>The Code Repository as Working Memory</title>
+<link>https://walkden.me/blog/the-code-repository-as-working-memory/</link>
+<guid isPermaLink="true">https://walkden.me/blog/the-code-repository-as-working-memory/</guid>
+<pubDate>Sat, 17 Oct 2026 05:00:00 GMT</pubDate>
+<description>Explore how treating the code repository as durable working memory preserves decisions and evidence, enabling people and AI agents to build more ambitious software together with continuity and confidence.</description>
+</item>
+
+<item>
+<title>Good automation doesn&#39;t eliminate human decisions</title>
+<link>https://walkden.me/blog/good-automation-doesnt-eliminate-human-decisions/</link>
+<guid isPermaLink="true">https://walkden.me/blog/good-automation-doesnt-eliminate-human-decisions/</guid>
+<pubDate>Thu, 15 Oct 2026 05:00:00 GMT</pubDate>
+<description>Good automation doesn&#39;t eliminate human decisions. It makes them more visible, deliberate, and informed. Sometimes that means deliberately keeping a manual step.</description>
+</item>
+
+<item>
+<title>As AI gets cheaper, judgment becomes more valuable</title>
+<link>https://walkden.me/blog/as-ai-gets-cheaper-judgment-becomes-more-valuable/</link>
+<guid isPermaLink="true">https://walkden.me/blog/as-ai-gets-cheaper-judgment-becomes-more-valuable/</guid>
+<pubDate>Wed, 22 Jul 2026 15:02:13 GMT</pubDate>
+<description>As AI models become cheaper and more interchangeable, competitive advantage shifts toward better decisions, proprietary data, workflows, and customer relationships.</description>
+</item>
+
+<item>
+<title>AI doesn’t lower the cost of building the wrong thing</title>
+<link>https://walkden.me/blog/ai-doesnt-lower-the-cost-of-building-the-wrong-thing/</link>
+<guid isPermaLink="true">https://walkden.me/blog/ai-doesnt-lower-the-cost-of-building-the-wrong-thing/</guid>
+<pubDate>Fri, 10 Jul 2026 16:06:36 GMT</pubDate>
+<description>AI is rapidly lowering the cost of building software. But it doesn’t lower the cost of building the wrong thing.</description>
+</item>
+
+<item>
+<title>Building Collaborative, User-Centered Product Teams</title>
+<link>https://walkden.me/blog/building-collaborative-user-centered-product-teams/</link>
+<guid isPermaLink="true">https://walkden.me/blog/building-collaborative-user-centered-product-teams/</guid>
+<pubDate>Tue, 22 Oct 2024 01:35:57 GMT</pubDate>
+<description>A conversation on the Innovation and The Digital Enterprise Podcast about applying product expertise to advance Double Good’s mission.</description>
+</item>
+
+<item>
+<title>Goodbye ... for now</title>
+<link>https://walkden.me/blog/when-i-started-this-blog-agile-was-not/</link>
+<guid isPermaLink="true">https://walkden.me/blog/when-i-started-this-blog-agile-was-not/</guid>
+<pubDate>Fri, 09 Nov 2018 13:47:00 GMT</pubDate>
+<description>When I started this blog, Agile was not yet the lingua franca of product development. I was passionate about teaching the Chicago community about Agile. I helped start the Chicago Agile Project Managers Meet Up.</description>
+</item>
+
+<item>
+<title>An Easier Way to Decide</title>
+<link>https://walkden.me/blog/an-easier-way-to-decide/</link>
+<guid isPermaLink="true">https://walkden.me/blog/an-easier-way-to-decide/</guid>
+<pubDate>Thu, 11 May 2017 22:58:00 GMT</pubDate>
+<description>Originally posted on ForeverCar Blog: https://blog.forevercar.com/an-easier-way-to-decide You probably have far more important priorities than taking the time to research vehicle service protection plans. That’s where we come in.</description>
+</item>
+
+<item>
+<title>Ember: Actions Up, Data Sideways</title>
+<link>https://walkden.me/blog/ember-actions-up-data-sideways/</link>
+<guid isPermaLink="true">https://walkden.me/blog/ember-actions-up-data-sideways/</guid>
+<pubDate>Mon, 25 Jan 2016 21:39:00 GMT</pubDate>
+<description>The rallying cry for Ember 2.0 has been “Data Down, Actions Up”. Ember&#39;s component based architecture sets a pattern where data is passed “down” to child components, while children “request” changes from their parents by triggering actions.</description>
+</item>
+
+<item>
+<title>Debugging Minified Javascript</title>
+<link>https://walkden.me/blog/debugging-minified-javascript/</link>
+<guid isPermaLink="true">https://walkden.me/blog/debugging-minified-javascript/</guid>
+<pubDate>Mon, 09 Nov 2015 15:46:00 GMT</pubDate>
+<description>This is an error we got in the early morning hours from our staging environment: There are lots of things to like about minifying Javascript except this of course. Removing proper variables annihilates context so completely.</description>
+</item>
+
+<item>
+<title>Your Inconsistent Design Makes Me Worry About Your Entire Product</title>
+<link>https://walkden.me/blog/your-inconsistent-design-makes-me-worry/</link>
+<guid isPermaLink="true">https://walkden.me/blog/your-inconsistent-design-makes-me-worry/</guid>
+<pubDate>Thu, 09 Jul 2015 16:04:00 GMT</pubDate>
+<description>This is from a product I use daily. Who wrote this code and thought they were done? Who approved these two button styles next to one another? I have this vision of a developer choosing a library that made their development life easier.</description>
+</item>
+
+<item>
+<title>Applying user centric design to your business plan</title>
+<link>https://walkden.me/blog/product-design-in-nutshell/</link>
+<guid isPermaLink="true">https://walkden.me/blog/product-design-in-nutshell/</guid>
+<pubDate>Fri, 20 Mar 2015 11:59:00 GMT</pubDate>
+<description>I got asked by an investor recently how we at Digital H2O do design. I liked the conciseness of my response and thought it was a good example of how to tie user centric design into a business plan.</description>
+</item>
+
+<item>
+<title>How to start a product redesign - a playbook</title>
+<link>https://walkden.me/blog/how-to-get-started-on-product-redesign/</link>
+<guid isPermaLink="true">https://walkden.me/blog/how-to-get-started-on-product-redesign/</guid>
+<pubDate>Tue, 06 Jan 2015 17:06:00 GMT</pubDate>
+<description>A few months back I was working on a large, ground-up redesign for a product I own. I had a little trouble getting started. I realized I needed a playbook to remind me of the basics.</description>
+</item>
+
+<item>
+<title>The sum of my experience with product making</title>
+<link>https://walkden.me/blog/the-some-of-my-experience-with-product/</link>
+<guid isPermaLink="true">https://walkden.me/blog/the-some-of-my-experience-with-product/</guid>
+<pubDate>Tue, 15 Jul 2014 13:38:00 GMT</pubDate>
+<description>People make companies and products. Process helps support and grow good people, but fundamentally it&#39;s all about the people. There is a whole lot more to it than that, but this is the first thing to know.</description>
+</item>
+
+<item>
+<title>Advice for Developers and Designers Working Together</title>
+<link>https://walkden.me/blog/advice-for-developers-and-designers/</link>
+<guid isPermaLink="true">https://walkden.me/blog/advice-for-developers-and-designers/</guid>
+<pubDate>Tue, 26 Feb 2013 23:05:00 GMT</pubDate>
+<description>From my talk at the University of Chicago Booth School of Business: Excellent advice on getting developers, designers and managers to work together. It&#39;s featured here in our [UrbanBound&#39;s] latest blog! hub.am/XeZ6hq</description>
+</item>
+
+<item>
+<title>Customer Development for &quot;Product You&quot;</title>
+<link>https://walkden.me/blog/customer-development-for-product-you/</link>
+<guid isPermaLink="true">https://walkden.me/blog/customer-development-for-product-you/</guid>
+<pubDate>Fri, 18 Jan 2013 17:10:00 GMT</pubDate>
+<description>As a manager I&#39;ve always found it hard to get honest feedback from employees and my management.</description>
+</item>
+
+<item>
+<title>What Is A Product Showcase?</title>
+<link>https://walkden.me/blog/what-is-showcase/</link>
+<guid isPermaLink="true">https://walkden.me/blog/what-is-showcase/</guid>
+<pubDate>Thu, 03 Jan 2013 21:26:00 GMT</pubDate>
+<description>I couldn&#39;t find a simple description of a product showcase today so I wrote a quick one myself The showcase is an important part of product development.</description>
+</item>
+
+<item>
+<title>An update to principled leadership</title>
+<link>https://walkden.me/blog/an-update-to-principled-leadership/</link>
+<guid isPermaLink="true">https://walkden.me/blog/an-update-to-principled-leadership/</guid>
+<pubDate>Fri, 05 Oct 2012 14:32:00 GMT</pubDate>
+<description>One my most popular posts of all time is one I put up in 2009 about Principled Leadership. I still get traffic from this post and once got a very aggressive job solicitation based on the principals outlined in the post.</description>
+</item>
+
+<item>
+<title>Shallow Copy in Ruby</title>
+<link>https://walkden.me/blog/swallow-copy-in-ruby/</link>
+<guid isPermaLink="true">https://walkden.me/blog/swallow-copy-in-ruby/</guid>
+<pubDate>Fri, 03 Aug 2012 17:15:00 GMT</pubDate>
+<description>I often wonder why some organizations only consider candidates who have computer science or computer engineering degrees. In the real world I have seen many great developers who have come from diverse backgrounds.</description>
+</item>
+
+<item>
+<title>From the maker&#39;s perspective...</title>
+<link>https://walkden.me/blog/from-makers-perspective/</link>
+<guid isPermaLink="true">https://walkden.me/blog/from-makers-perspective/</guid>
+<pubDate>Thu, 03 May 2012 21:50:00 GMT</pubDate>
+<description>I came across this article via LinkedIn. It reminds me of the Maker Schedule, Manager Schedule discussion except its from a maker perspective.</description>
+</item>
+
+<item>
+<title>Call It Like It Is - Save Time and Money by Filtering Out Non-Users in Your Application&#39;s Design</title>
+<link>https://walkden.me/blog/call-it-like-it-is-save-time-and-money/</link>
+<guid isPermaLink="true">https://walkden.me/blog/call-it-like-it-is-save-time-and-money/</guid>
+<pubDate>Mon, 16 Apr 2012 16:34:00 GMT</pubDate>
+<description>At UrbanBound we are necessarily obsessed with who our users are - and who they aren&#39;t. An application designed for baby boomers utilizes very different design principals than one designed for a younger audience.</description>
+</item>
+
+<item>
+<title>Why I hate the Internet sometimes</title>
+<link>https://walkden.me/blog/why-i-hate-internet-sometimes/</link>
+<guid isPermaLink="true">https://walkden.me/blog/why-i-hate-internet-sometimes/</guid>
+<pubDate>Tue, 10 Apr 2012 21:43:00 GMT</pubDate>
+<description>Watch my site get slow. Watch me download the logs to make sure nothing happened. Thanks for wasting my time script kiddies.</description>
+</item>
+
+<item>
+<title>Why car companies need to do usability testing</title>
+<link>https://walkden.me/blog/why-car-companies-need-to-do-usability/</link>
+<guid isPermaLink="true">https://walkden.me/blog/why-car-companies-need-to-do-usability/</guid>
+<pubDate>Mon, 19 Dec 2011 17:01:00 GMT</pubDate>
+<description>Overall I love my Toyota Prius. Under the hood, it is an engineering marvel. Prius&#39; have been around for 10 years and still sell like hotcakes. I honestly don&#39;t understand why Ford hasn&#39;t made a competing product by now.</description>
+</item>
+
+<item>
+<title>Looking Back at My Most Popular Posts</title>
+<link>https://walkden.me/blog/looking-back-at-my-most-popular-posts/</link>
+<guid isPermaLink="true">https://walkden.me/blog/looking-back-at-my-most-popular-posts/</guid>
+<pubDate>Fri, 09 Dec 2011 18:17:00 GMT</pubDate>
+<description>Anybody who has worked with me knows that I&#39;m a fan of analytics. If you are selling soap or software development services, I strongly believe you should be capturing metrics on how people use and interact with your product.</description>
+</item>
+
+<item>
+<title>Jakob Nielsen&#39;s Kindle Fire Usability Findings</title>
+<link>https://walkden.me/blog/jakob-nielsens-kindle-fire-usability/</link>
+<guid isPermaLink="true">https://walkden.me/blog/jakob-nielsens-kindle-fire-usability/</guid>
+<pubDate>Mon, 05 Dec 2011 22:37:00 GMT</pubDate>
+<description>I don&#39;t like to re-post, but I highly recommend reading this. Tablets are, finally, not going to go away and will only increase in usage. Jakob Nielsen does a great job of discussing the usability and design of 7-inch tablets.</description>
+</item>
+
+<item>
+<title>Review: Individuals and Interactions an agile guide</title>
+<link>https://walkden.me/blog/review-individuals-and-interactions/</link>
+<guid isPermaLink="true">https://walkden.me/blog/review-individuals-and-interactions/</guid>
+<pubDate>Thu, 07 Jul 2011 13:15:00 GMT</pubDate>
+<description>In Individuals and Interactions an agile guide, Ken Howard and Barry Rogers give us a set of tools for managing individuals on agile projects.</description>
+</item>
+
+<item>
+<title>Review: Leading Lean Software Development</title>
+<link>https://walkden.me/blog/review-leading-lean-software-2011-07-05/</link>
+<guid isPermaLink="true">https://walkden.me/blog/review-leading-lean-software-2011-07-05/</guid>
+<pubDate>Tue, 05 Jul 2011 22:08:00 GMT</pubDate>
+<description>I am reviewing books I have read in the past for an upcoming coaching gig. I realized I hadn&#39;t posted this review on my blog yet!</description>
+</item>
+
+<item>
+<title>Six Reasons Why EA Should NOT be Assigned to the IT Department</title>
+<link>https://walkden.me/blog/six-reasons-why-ea-should-not-be/</link>
+<guid isPermaLink="true">https://walkden.me/blog/six-reasons-why-ea-should-not-be/</guid>
+<pubDate>Thu, 30 Jun 2011 15:15:00 GMT</pubDate>
+<description>I have always disliked working with the &quot;big architecture&quot; people. It was only in the last 5 years that I came to realize why. Enterprise Architects are often software developers who have reached the pinacle of programming greatness.</description>
+</item>
+
+<item>
+<title>Agile In Regulated Software - Partnering</title>
+<link>https://walkden.me/blog/agile-in-regulated-software-partnering/</link>
+<guid isPermaLink="true">https://walkden.me/blog/agile-in-regulated-software-partnering/</guid>
+<pubDate>Sat, 25 Jun 2011 13:10:00 GMT</pubDate>
+<description>This may be generic advice, but it might not be a familiar concept for those in IT working within a large organization doing validated software: Once you adopt the practices described in my previous blogs about regulated software, you will</description>
+</item>
+
+<item>
+<title>Agile in Regulated Software - Sweat the Details</title>
+<link>https://walkden.me/blog/agile-in-regulated-software-sweat/</link>
+<guid isPermaLink="true">https://walkden.me/blog/agile-in-regulated-software-sweat/</guid>
+<pubDate>Wed, 25 May 2011 20:25:00 GMT</pubDate>
+<description>Very few people in the software development community have issues with maintaining good attention to the details. However, I bet those who live in the regulated software community view the “normal” software world as quite sloppy.</description>
+</item>
+
+<item>
+<title>Agile in Regulated Software - Its not what you wear. Its how you wear it.</title>
+<link>https://walkden.me/blog/agile-in-regulated-software-its-not/</link>
+<guid isPermaLink="true">https://walkden.me/blog/agile-in-regulated-software-its-not/</guid>
+<pubDate>Mon, 16 May 2011 22:22:00 GMT</pubDate>
+<description>Its not what you wear. Its how you wear it. I have to thank Tavi Scandiff-Pirvu for coining this expression as it relates to regulated software development.</description>
+</item>
+
+<item>
+<title>Agile in Regulated Software - Functional Testing vs Technical Testing</title>
+<link>https://walkden.me/blog/agile-in-regulated-software-functional/</link>
+<guid isPermaLink="true">https://walkden.me/blog/agile-in-regulated-software-functional/</guid>
+<pubDate>Tue, 10 May 2011 19:07:00 GMT</pubDate>
+<description>Testing is a crucial part of all software development. If you don&#39;t believe this you are likely just starting your career or haven&#39;t had to support an application in production with users.</description>
+</item>
+
+<item>
+<title>Agile in Regulated Software - Checklists</title>
+<link>https://walkden.me/blog/agile-in-regulated-software-checklists/</link>
+<guid isPermaLink="true">https://walkden.me/blog/agile-in-regulated-software-checklists/</guid>
+<pubDate>Tue, 10 May 2011 19:05:00 GMT</pubDate>
+<description>Lets be honest: Checklists aren&#39;t the most exciting topic to blog about. However, in the context of regulation they become interesting. Everybody loves checklists and hates them at the same time.</description>
+</item>
+
+<item>
+<title>Agile in Regulated Software - Have Some Class</title>
+<link>https://walkden.me/blog/agile-in-regulated-software-have-some/</link>
+<guid isPermaLink="true">https://walkden.me/blog/agile-in-regulated-software-have-some/</guid>
+<pubDate>Tue, 10 May 2011 19:03:00 GMT</pubDate>
+<description>The FDA states that a medical device is a product that is used for medical purposes in patients, in diagnosis, therapy, or surgery.</description>
+</item>
+
+<item>
+<title>Agile In Regulated Software - Methodology</title>
+<link>https://walkden.me/blog/agile-in-regulated-software-methodology/</link>
+<guid isPermaLink="true">https://walkden.me/blog/agile-in-regulated-software-methodology/</guid>
+<pubDate>Tue, 10 May 2011 19:01:00 GMT</pubDate>
+<description>Methodology &quot;The analysis of the principles of methods, rules, and postulates employed by a discipline&quot; For software companies these day it seems that its not a hard choice to follow Agile principles.</description>
+</item>
+
+<item>
+<title>Agile In Regulated Software - It can be done!</title>
+<link>https://walkden.me/blog/agile-in-regulated-software-it-can-be/</link>
+<guid isPermaLink="true">https://walkden.me/blog/agile-in-regulated-software-it-can-be/</guid>
+<pubDate>Tue, 10 May 2011 18:59:00 GMT</pubDate>
+<description>We have all heard that developing software utilizing Agile principles yields high quality, working software in customers&#39; hands quickly.</description>
+</item>
+
+<item>
+<title>Product Camp Chicago</title>
+<link>https://walkden.me/blog/product-camp-chicago/</link>
+<guid isPermaLink="true">https://walkden.me/blog/product-camp-chicago/</guid>
+<pubDate>Tue, 29 Mar 2011 04:31:00 GMT</pubDate>
+<description>Join me at Product Camp Chicago this Saturday April 2, 2011 to see my talk about How to Incorporate Apple like design into your products. http://bit.ly/eCTVN5</description>
+</item>
+
+<item>
+<title>All the things I never thought I would use my iPad for</title>
+<link>https://walkden.me/blog/all-things-i-never-thought-i-would-use/</link>
+<guid isPermaLink="true">https://walkden.me/blog/all-things-i-never-thought-i-would-use/</guid>
+<pubDate>Sun, 20 Mar 2011 20:47:00 GMT</pubDate>
+<description>My family bought me an iPad for fathers day last year. I have been completely surprised how much I use it professionally and personally.</description>
+</item>
+
+<item>
+<title>Everyone hates gadgets!  Don&#39;t make your product a gadget</title>
+<link>https://walkden.me/blog/everyone-hates-gadgets-dont-make-your/</link>
+<guid isPermaLink="true">https://walkden.me/blog/everyone-hates-gadgets-dont-make-your/</guid>
+<pubDate>Wed, 19 Jan 2011 03:54:00 GMT</pubDate>
+<description>My mother sent me the following comment in a email recently: &quot;Us senior citizens don&#39;t need anymore gadgets. The tv remote and the garage door remote are about all we can handle.&quot; I find the concept of gadgets interesting.</description>
+</item>
+
+<item>
+<title>Boarding Pass - You&#39;re doing it wrong</title>
+<link>https://walkden.me/blog/boarding-pass-youre-doing-it-wrong/</link>
+<guid isPermaLink="true">https://walkden.me/blog/boarding-pass-youre-doing-it-wrong/</guid>
+<pubDate>Tue, 04 Jan 2011 23:59:00 GMT</pubDate>
+<description>Boarding Pass or Billboard?</description>
+</item>
+
+<item>
+<title>What I have been reading recently</title>
+<link>https://walkden.me/blog/what-i-have-been-reading-recently/</link>
+<guid isPermaLink="true">https://walkden.me/blog/what-i-have-been-reading-recently/</guid>
+<pubDate>Mon, 13 Dec 2010 22:37:00 GMT</pubDate>
+<description>I have been busy helping customers design apps and doing more reading than writing these days.</description>
+</item>
+
+<item>
+<title>In Reflections on Management: How to Manage Your Software Projects, Your Teams, Your Boss, and Yourself</title>
+<link>https://walkden.me/blog/in-reflections-on-management-how-to/</link>
+<guid isPermaLink="true">https://walkden.me/blog/in-reflections-on-management-how-to/</guid>
+<pubDate>Fri, 13 Aug 2010 04:29:00 GMT</pubDate>
+<description>In Reflections on Management: How to Manage Your Software Projects, Your Teams, Your Boss, and Yourself Watts Humphrey presents a number of essays discussing how to manage software projects, teams, bosses and yourself.</description>
+</item>
+
+<item>
+<title>I&#39;m not a technical manager, how do I find a Software Developer?</title>
+<link>https://walkden.me/blog/how-to-find-software-developer/</link>
+<guid isPermaLink="true">https://walkden.me/blog/how-to-find-software-developer/</guid>
+<pubDate>Mon, 19 Jul 2010 21:10:00 GMT</pubDate>
+<description>A friend contacted me for advice on how to find and hire a good software developer. The problem is that he is a non-technical manager and only needs one person.</description>
+</item>
+
+<item>
+<title>I have a workshop and a bridge to sell you...come on by</title>
+<link>https://walkden.me/blog/i-have-workshop-and-bridge-to-sell/</link>
+<guid isPermaLink="true">https://walkden.me/blog/i-have-workshop-and-bridge-to-sell/</guid>
+<pubDate>Mon, 21 Jun 2010 17:01:00 GMT</pubDate>
+<description>I got an advertisement for a workshop about how to develop SaaS products. The title was, &quot;Silly Agility--The Myth of the SaaS Agile Product Manager&quot;.</description>
+</item>
+
+<item>
+<title>Android: What I like about you</title>
+<link>https://walkden.me/blog/android-what-i-like-about-you/</link>
+<guid isPermaLink="true">https://walkden.me/blog/android-what-i-like-about-you/</guid>
+<pubDate>Wed, 02 Jun 2010 02:21:00 GMT</pubDate>
+<description>Anybody who has been to our office knows I am an Android fan. My prediction is that the Android platform will end up with a much, much larger install base than iPhone OS.</description>
+</item>
+
+<item>
+<title>Review: Making it Big in Software</title>
+<link>https://walkden.me/blog/review-making-it-big-in-software/</link>
+<guid isPermaLink="true">https://walkden.me/blog/review-making-it-big-in-software/</guid>
+<pubDate>Wed, 12 May 2010 17:19:00 GMT</pubDate>
+<description>In Making it Big in Software, Sam Lightstone has the ambitious task of giving you &quot;all the information you need to jumpstart your software career: the best ways to get hired, move up, and blaze your way to the top!&quot;.</description>
+</item>
+
+<item>
+<title>Review: Succeeding with Agile</title>
+<link>https://walkden.me/blog/review-succeeding-with-agile/</link>
+<guid isPermaLink="true">https://walkden.me/blog/review-succeeding-with-agile/</guid>
+<pubDate>Tue, 23 Mar 2010 02:06:00 GMT</pubDate>
+<description>In Succeeding with Agile, Mike Cohn gives organizations a handbook for how to succeed using Agile practices and principals.</description>
+</item>
+
+<item>
+<title>Who values your product and do you value them?</title>
+<link>https://walkden.me/blog/who-values-your-product-and-do-you/</link>
+<guid isPermaLink="true">https://walkden.me/blog/who-values-your-product-and-do-you/</guid>
+<pubDate>Fri, 12 Mar 2010 17:27:00 GMT</pubDate>
+<description>We have reached the most critical point on a project I&#39;m working on. After a few months we think we know enough about the domain and application to build a product road map that will take us to the first public release.</description>
+</item>
+
+<item>
+<title>What’s the value of Agile out of the box?</title>
+<link>https://walkden.me/blog/whats-value-of-agile-out-of-box-12/</link>
+<guid isPermaLink="true">https://walkden.me/blog/whats-value-of-agile-out-of-box-12/</guid>
+<pubDate>Wed, 13 Jan 2010 04:31:00 GMT</pubDate>
+<description>I often meet peers who ask what Agile practices Pathfinder utilizes. From the outside we pretty much use all of XP’s practices.</description>
+</item>
+
+<item>
+<title>Review: Leading Lean Software Development</title>
+<link>https://walkden.me/blog/review-leading-lean-software-2010-01-10/</link>
+<guid isPermaLink="true">https://walkden.me/blog/review-leading-lean-software-2010-01-10/</guid>
+<pubDate>Sun, 10 Jan 2010 14:14:00 GMT</pubDate>
+<description>In Leading Lean Software Development, Mary and Tom Poppendieck present a handbook for how to run a software development group, top to bottom.</description>
+</item>
+
+<item>
+<title>SDLC or Product Design – You Decide</title>
+<link>https://walkden.me/blog/sdlc-or-product-design-you-decide/</link>
+<guid isPermaLink="true">https://walkden.me/blog/sdlc-or-product-design-you-decide/</guid>
+<pubDate>Thu, 10 Dec 2009 04:33:00 GMT</pubDate>
+<description>…or the telephone game Last weekend I was watching a movie with my kids. In the movie there was a chain of monkeys that needed to pass on the message from one character to one on the other side of the chain.</description>
+</item>
+
+<item>
+<title>Looking Back: Creating a Software Factory – Part 3</title>
+<link>https://walkden.me/blog/looking-back-creating-software-factory-2009-11-13/</link>
+<guid isPermaLink="true">https://walkden.me/blog/looking-back-creating-software-factory-2009-11-13/</guid>
+<pubDate>Fri, 13 Nov 2009 19:22:00 GMT</pubDate>
+<description>This is the final post in my three part series (see parts one &amp; two) about creating a software factory.</description>
+</item>
+
+<item>
+<title>How to Interview and Hire a Good Project Manager</title>
+<link>https://walkden.me/blog/how-to-interview-and-hire-good-project/</link>
+<guid isPermaLink="true">https://walkden.me/blog/how-to-interview-and-hire-good-project/</guid>
+<pubDate>Wed, 07 Oct 2009 00:24:00 GMT</pubDate>
+<description>This is a topic near and dear to me these days. I have been blogging about leadership a lot recently and think some discussion about how to actually find and hire those with leadership skills is in order.</description>
+</item>
+
+<item>
+<title>We don’t have time for all of these meetings!</title>
+<link>https://walkden.me/blog/we-dont-have-time-for-all-of-these/</link>
+<guid isPermaLink="true">https://walkden.me/blog/we-dont-have-time-for-all-of-these/</guid>
+<pubDate>Wed, 30 Sep 2009 19:23:00 GMT</pubDate>
+<description>:: Originally Posted on Pathfinder Development&#39;s Blog :: The majority of people who develop software utilizing agile practices find that they spend much less time in meetings than they did before they discovered Agile thinking.</description>
+</item>
+
+<item>
+<title>Building a High Performance Agile Team: Assume You Will Be a One Hit Wonder</title>
+<link>https://walkden.me/blog/building-high-performance-agile-team/</link>
+<guid isPermaLink="true">https://walkden.me/blog/building-high-performance-agile-team/</guid>
+<pubDate>Wed, 30 Sep 2009 19:21:00 GMT</pubDate>
+<description>:: Originally Posted on Pathfinder Development&#39;s Blog :: One thing about agile teams is that they constantly strive to get better. In my experience an Agile team takes 2-4 iterations to work through the forming stage.</description>
+</item>
+
+<item>
+<title>Agile 2009: A reminder of why each team needs leadership</title>
+<link>https://walkden.me/blog/agile-2009-reminder-of-why-each-team/</link>
+<guid isPermaLink="true">https://walkden.me/blog/agile-2009-reminder-of-why-each-team/</guid>
+<pubDate>Wed, 30 Sep 2009 19:19:00 GMT</pubDate>
+<description>:: Originally Posted on the Pathfinder Development&#39;s Blog :: Last week I presented at Agile 2009 a workshop for those new to Agile entitled: The Agile Game: An Experiential Workshop.</description>
+</item>
+
+<item>
+<title>Getting a team over the fear of daily scrums</title>
+<link>https://walkden.me/blog/getting-team-over-fear-of-daily-scrums/</link>
+<guid isPermaLink="true">https://walkden.me/blog/getting-team-over-fear-of-daily-scrums/</guid>
+<pubDate>Wed, 30 Sep 2009 19:17:00 GMT</pubDate>
+<description>::Originally posted on the Pathfinder Development&#39;s Blog:: If my previous post about the value of agile meetings over traditional status meetings got you interested, I want to share a common pattern of behavior I often see from teams trying</description>
+</item>
+
+<item>
+<title>Great Article about how to manage technical people</title>
+<link>https://walkden.me/blog/great-article-about-how-to-manage/</link>
+<guid isPermaLink="true">https://walkden.me/blog/great-article-about-how-to-manage/</guid>
+<pubDate>Wed, 30 Sep 2009 18:51:00 GMT</pubDate>
+<description>The unspoken truth about managing geeks http://www.computerworld.com/s/article/print/9137708/Opinion_The_unspoken_truth_about_managing_geeks</description>
+</item>
+
+<item>
+<title>Looking Back: Creating a Software Factory – Part 2</title>
+<link>https://walkden.me/blog/looking-back-creating-software-factory-2009-09-01/</link>
+<guid isPermaLink="true">https://walkden.me/blog/looking-back-creating-software-factory-2009-09-01/</guid>
+<pubDate>Tue, 01 Sep 2009 19:25:00 GMT</pubDate>
+<description>In my last post I talked about the first iteration of the software factory I created. In it I talked about how I followed traditional management techniques to add offshore developers and testers to the team.</description>
+</item>
+
+<item>
+<title>Maker&#39;s Schedule, Manager&#39;s Schedule</title>
+<link>https://walkden.me/blog/makers-schedule-managers-schedule/</link>
+<guid isPermaLink="true">https://walkden.me/blog/makers-schedule-managers-schedule/</guid>
+<pubDate>Thu, 30 Jul 2009 14:49:00 GMT</pubDate>
+<description>One of my colleagues at Pathfinder sent this out to the whole company. I have been on the manager&#39;s schedule since 2001. Now [more and more] I&#39;m on the maker&#39;s schedule.</description>
+</item>
+
+<item>
+<title>Looking Back: Creating a Software Factory – Part 1</title>
+<link>https://walkden.me/blog/looking-back-creating-software-factory-2009-07-14/</link>
+<guid isPermaLink="true">https://walkden.me/blog/looking-back-creating-software-factory-2009-07-14/</guid>
+<pubDate>Tue, 14 Jul 2009 18:39:00 GMT</pubDate>
+<description>A few years back, while managing a software development department, I developed an efficient software factory based on lean principals that directly supported a $2Billion per year business.</description>
+</item>
+
+<item>
+<title>The Death of Productivity</title>
+<link>https://walkden.me/blog/death-of-productivity/</link>
+<guid isPermaLink="true">https://walkden.me/blog/death-of-productivity/</guid>
+<pubDate>Thu, 09 Jul 2009 19:18:00 GMT</pubDate>
+<description>I don&#39;t often re-post from others&#39; blogs. However, I came across a blog post worth passing on. In my career I have never understood working 60+ hours. Even in graduate school I&#39;d work from 10am to 11pm - but only for 4 days a week!</description>
+</item>
+
+<item>
+<title>Effective vs Efficient Teams</title>
+<link>https://walkden.me/blog/effective-vs-efficient-teams/</link>
+<guid isPermaLink="true">https://walkden.me/blog/effective-vs-efficient-teams/</guid>
+<pubDate>Thu, 04 Jun 2009 14:51:00 GMT</pubDate>
+<description>We hear more and more about large organizations adopting Agile software development practices recently. This is not surprising given that Agile practices have many advantages over traditional methods.</description>
+</item>
+
+<item>
+<title>Something you can try on your next fixed bid project</title>
+<link>https://walkden.me/blog/something-you-can-try-on-your-next/</link>
+<guid isPermaLink="true">https://walkden.me/blog/something-you-can-try-on-your-next/</guid>
+<pubDate>Thu, 14 May 2009 14:53:00 GMT</pubDate>
+<description>Depending on your company’s commitment to agile principals you might find yourself on a classic fixed bid project. A while back, at a previous employer, I found myself in just such a position.</description>
+</item>
+
+<item>
+<title>Adopting Agile Practices: Its going to be hard!</title>
+<link>https://walkden.me/blog/adopting-agile-practices-its-going-to/</link>
+<guid isPermaLink="true">https://walkden.me/blog/adopting-agile-practices-its-going-to/</guid>
+<pubDate>Wed, 15 Apr 2009 20:17:00 GMT</pubDate>
+<description>Right now I&#39;m coaching some teams with projects in flight. To do this I generally start by showing them one or two agile practices. After getting buy-in we use the practices for an iteration - retrospect and refine.</description>
+</item>
+
+<item>
+<title>There is no conductor in Agile</title>
+<link>https://walkden.me/blog/there-is-no-conductor-in-agile/</link>
+<guid isPermaLink="true">https://walkden.me/blog/there-is-no-conductor-in-agile/</guid>
+<pubDate>Mon, 23 Mar 2009 03:23:00 GMT</pubDate>
+<description>Recently I have been coaching a number of SAP project managers on how to manage their projects utilizing agile practices and principals.</description>
+</item>
+
+<item>
+<title>Principled Leadership</title>
+<link>https://walkden.me/blog/principled-leadership/</link>
+<guid isPermaLink="true">https://walkden.me/blog/principled-leadership/</guid>
+<pubDate>Fri, 06 Feb 2009 17:28:00 GMT</pubDate>
+<description>Something I have been thinking about recently... Principled Leadership has the following principles representing actions that leaders need to take to transform their organizations into outcome and value focused organizations serving</description>
+</item>
+
+<item>
+<title>Systematic Amateurism</title>
+<link>https://walkden.me/blog/systematic-amateurism-27/</link>
+<guid isPermaLink="true">https://walkden.me/blog/systematic-amateurism-27/</guid>
+<pubDate>Tue, 27 Jan 2009 18:18:00 GMT</pubDate>
+<description>Occasionally somebody from outside of my project stumbles upon notes I have written from a retrospective or other meeting.</description>
+</item>
+
+<item>
+<title>The State of Scrum</title>
+<link>https://walkden.me/blog/state-of-scrum/</link>
+<guid isPermaLink="true">https://walkden.me/blog/state-of-scrum/</guid>
+<pubDate>Mon, 12 Jan 2009 16:28:00 GMT</pubDate>
+<description>I found this interesting article in the Agile Journal about Scrum. A few quotes stood out to me: &quot;When you consider that Scrum challenges teams to always be growing and improving, it makes sense that it has emerged as the most popular agile</description>
+</item>
+
+<item>
+<title>Planning for Improvisation</title>
+<link>https://walkden.me/blog/planning-for-improvisation/</link>
+<guid isPermaLink="true">https://walkden.me/blog/planning-for-improvisation/</guid>
+<pubDate>Tue, 23 Dec 2008 23:15:00 GMT</pubDate>
+<description>When I joined Redpoint I noticed a disproportionate number of musicians in the firm.</description>
+</item>
+
+</channel>
+</rss>
