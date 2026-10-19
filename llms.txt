@@ -1,0 +1,21 @@
+# Kal Walkden
+
+> Technology and product executive helping business leaders identify constraints, make decisions, and lead operational and technical change.
+
+This is Kal Walkden's personal website. Blog posts reflect their original publication dates.
+
+## Main pages
+
+- [Home](https://walkden.me/): Professional background and technology and product leadership work.
+- [How I Help](https://walkden.me/#how-i-help): Services and ways to work together.
+- [Selected Work](https://walkden.me/#selected-work): Examples of past work.
+- [About](https://walkden.me/#about): Biography.
+- [Contact](https://walkden.me/#contact): Contact form.
+- [Writing](https://walkden.me/blog/): Published articles, with links to their canonical pages.
+
+## Optional
+
+- [RSS feed](https://walkden.me/feed.xml): Article summaries and canonical links.
+- [Sitemap](https://walkden.me/sitemap.xml): Canonical page URLs.
+
+Use /blog/ URLs when citing articles. Year/month .html paths are compatibility pages for historical links.
